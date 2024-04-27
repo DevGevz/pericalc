@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>| Calculateur de Périmètres |</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1>Renseigne le rayon de ton cercle pour calculer son périmètre: </h1>
+    <div class="container">
+        <div class="inputfield">
+            <label id="myLabel">Rayon:</label>
+        <input type="text" id="rayon"><span class="cm"> cm.</span><br>
+        <button id="submit">Calculer</button><br><br>
+        <h2>Résultat:</h2><p id="result"></p>
+        </div>
+    </div>
+    <div class="container">
+
+        <div class="rebel">
+            <div class="content">
+                <h3>Logs des requêtes:</h3><button id="reset">↻</button>
+            </div>
+        </div>
+
+        <div id="logs">
+        </div>
+
+    </div>
+
+    <script src="./main.js"></script>
+</body>
+</html>

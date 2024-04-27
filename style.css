@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-image: linear-gradient(to right, wheat, white);
+}
+
+h1{
+    margin: 10px 10px 10px 10px;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid;
+    font-size: 5rem;
+}
+.inputfield{
+    text-align: center;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px 20px;
+}
+.container {
+    height: 250px;
+    margin: 200px;
+    border: solid 1px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+.cm{
+    font-size: 2rem;
+    font-style: italic;
+}
+
+#myLabel{
+    margin-left: 10px;
+    font-size: 2rem;
+    font-style: italic;
+}
+#submit, #reset{
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    padding: 5px 10px;
+    background-color: #3d3801;
+    border: 1px solid;
+    box-shadow: 0px 5px 10px black;
+    transition: 1s;
+}
+#submit:hover, #reset:hover{
+    background-color: rgb(4, 77, 4);
+}
+
+#rayon{
+    font-size: 2rem;
+    width: 70px;
+}
+#logs {
+    text-align: center;
+    max-height: 250px;
+    width: 100%;
+    /* border: 1px solid blue; */
+    overflow-y: scroll;
+    cursor:row-resize;
+}
+#logs .para{
+    margin-top: 15px;
+    border: 1px solid;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    padding: 10px;
+}
+#logs::-webkit-scrollbar{
+    display: none;
+}
+
+.rebel{
+    border-right: 1px solid rgb(0, 0, 0);
+    height: 90%;
+}
+
+.content{
+    margin-top: 55%;
+}
